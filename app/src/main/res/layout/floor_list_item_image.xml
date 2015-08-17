@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.xici.newapp.support.widget.FloorImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/vertical_padding_tiny" >
+
+    <ImageView
+        android:id="@+id/content_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_img"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/content_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/content_image"
+        android:layout_alignLeft="@id/content_image"
+        android:layout_alignRight="@id/content_image"
+        android:layout_alignTop="@id/content_image"
+        android:background="@drawable/image_cover"
+        android:clickable="true"
+        android:focusable="true" />
+
+</net.xici.newapp.support.widget.FloorImageView>

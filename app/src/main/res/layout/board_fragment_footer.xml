@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#F1F2F4"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/horizontal_padding_xlarge"
+        android:paddingRight="@dimen/horizontal_padding_xlarge"
+        android:paddingTop="@dimen/vertical_padding_medium"
+        android:paddingBottom="@dimen/vertical_padding_medium" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="完全不够看？瞧瞧这些版吧！"
+            android:textColor="@color/text_color_gray_deep"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="换一换"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_color_blue" />
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/board_1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boardlogo1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:singleLine="true"
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/list_divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5d8da" />
+
+        <LinearLayout
+            android:id="@+id/board_2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boardlogo2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:singleLine="true"
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/list_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5d8da" />
+
+        <LinearLayout
+            android:id="@+id/board_3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boardlogo3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:singleLine="true"
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/list_divider3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5d8da" />
+
+        <LinearLayout
+            android:id="@+id/board_4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boardlogo4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:singleLine="true"
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/list_divider4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5d8da" />
+
+        <LinearLayout
+            android:id="@+id/board_5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/boardlogo5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:singleLine="true"
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d5d8da" />
+    </LinearLayout>
+
+</LinearLayout>

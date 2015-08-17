@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:paddingTop="@dimen/vertical_padding_large" >
+
+    <net.xici.newapp.support.widget.CircularImageView
+        android:id="@+id/avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/margin_large" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/avatar"
+        android:textColor="@color/selectable_text_color_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/username"
+        android:layout_below="@id/username"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/selectable_text_color_gray_dark"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/floornum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_large"
+        android:background="@drawable/floor_num_bg"
+        android:paddingBottom="4dp"
+        android:paddingLeft="@dimen/horizontal_padding_small"
+        android:paddingRight="@dimen/horizontal_padding_small"
+        android:paddingTop="4dp"
+        android:text="楼主"
+        android:textColor="@color/selectable_text_color_gray_dark"
+        android:textSize="10sp" />
+
+    <View
+        android:id="@+id/blank_view"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/avatar"
+        android:layout_marginBottom="@dimen/margin_tiny"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_tiny"
+        android:layout_toRightOf="@id/blank_view"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/replycount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/content"
+        android:background="@drawable/reply_count_bg"
+        android:gravity="center"
+        android:paddingRight="@dimen/horizontal_padding_medium"
+        android:paddingLeft="@dimen/horizontal_padding_xxlarge"
+        android:textColor="@color/selectable_text_color_blue_light"
+        android:textSize="12sp"
+       />
+
+    <TextView
+        android:id="@+id/zancount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/replycount"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_toLeftOf="@id/replycount"
+        android:background="@drawable/zan_count_bg"
+        android:gravity="center"
+        android:textColor="@color/selectable_text_color_blue_light"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/replycount"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="@drawable/list_divider_holo_light" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#229ee3</color>
+
+    <color name="theme_dialer_primary">#229ee3</color>
+    <color name="theme_dialer_high">#0277BD</color>
+    <color name="theme_dialer_accent">#0277BD</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffb8b8b8</color>
+
+
+      
+      
+    <color name="main_bg">#eaedf2</color>
+    <color name="list_item_pressed">#ff00a7ff</color>
+    <color name="ab_text_color_transparent">#80f1f9ff</color>
+    <color name="ab_text_color">#fff1f9ff</color>
+    <color name="text_color_black">#ff444444</color>
+    <color name="text_color_blue">#ff108ff0</color>
+    <color name="text_color_blue_bright">#ff698ebf</color>
+    <color name="text_color_blue_dark">#ff0077d9</color>
+    <color name="text_color_blue_light">#ff5198bd</color>
+    <color name="text_color_gray">#ff999999</color>
+    <color name="text_color_gray_dark">#ff888888</color>
+    <color name="text_color_gray_deep">#ff666666</color>
+    <color name="text_color_gray_light">#ffb8b8b8</color>
+    <color name="text_color_orange">#ffff8752</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="stroke_gray">#ffbbbbbb</color>
+    <color name="black40">#66000000</color>
+    <color name="black50">#7f000000</color>
+    <color name="black60">#99000000</color>
+    <color name="bg_blue">#ffe7f3f9</color>
+    <color name="bg_blue_deep">#ff0079dd</color>
+    <color name="bg_blue_drak">#ff66b2e2</color>
+    <color name="bg_blue_light">#ffe7f3f9</color>
+    <color name="btn_blue_n">#ff1480cc</color>
+    <color name="btn_blue_p">#ff0a72bb</color>
+    <color name="bg_board_status_0">#fff6bb42</color>
+    <color name="bg_board_status_1">#ff8cc152</color>
+    <color name="bg_board_status_2">#ff0aaeef</color>
+    <color name="bg_board_status_3">#ff967adc</color>
+    <color name="bg_board_status_4">#ffe9573f</color>
+
+
+
+    <drawable name="translucent_background">#e0000000</drawable>
+    
+    <drawable name="list_item_pressed">#ff00a7ff</drawable>
+
+</resources>

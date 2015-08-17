@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white" >
+
+    <View
+        android:id="@+id/list_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#d5d8da"
+        />
+
+    <RelativeLayout
+        android:id="@+id/board_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/list_divider"
+        android:background="@drawable/list_item_bg"
+        >
+
+        <ImageView
+            android:id="@+id/btn_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp"
+            android:src="@drawable/icon_newpost"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textColor="@color/text_color_white"
+            android:textSize="14sp"
+            android:visibility="gone" >
+        </ImageView>
+        
+        
+        <TextView
+            android:id="@+id/boardstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/number_bg"
+            android:gravity="center"
+            android:textColor="@color/text_color_white"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textSize="12sp"
+            android:visibility="gone">
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/boardstate" >
+
+            <ImageView
+                android:id="@+id/bg_logo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/margin_list"
+                android:layout_marginLeft="@dimen/margin_list"
+                android:layout_marginTop="@dimen/margin_list"
+                android:background="@color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bd_logo" />
+
+            <TextView
+                android:id="@+id/boardname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_toRightOf="@id/bg_logo"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/selectable_text_color_black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/boardstate_f"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/boardname"
+                android:layout_below="@id/boardname"
+                android:layout_marginTop="@dimen/margin_tiny"
+                android:background="@drawable/new_count_bg"
+                android:gravity="left"
+                android:textColor="@color/selectable_text_color_blue_light"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/boardstate_g"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/boardname"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="@dimen/margin_tiny"
+                android:layout_toRightOf="@id/boardstate_f"
+                android:background="@drawable/reply_count_bg"
+                android:gravity="left"
+                android:textColor="@color/selectable_text_color_blue_light"
+                android:textSize="12sp"
+                 android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

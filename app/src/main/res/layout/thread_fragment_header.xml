@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/vertical_padding_xxlarge"
+        android:paddingTop="@dimen/vertical_padding_xxlarge" >
+
+        <ImageView
+            android:id="@+id/board_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_list"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bd_logo" />
+
+        <TextView
+            android:id="@+id/board_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/board_logo"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_toRightOf="@id/board_logo"
+            android:singleLine="true"
+            android:textColor="@color/text_color_black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/board_users_count"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/board_logo"
+            android:layout_alignLeft="@id/board_name"
+            android:background="@drawable/user_count_bg"
+            android:gravity="left"
+            android:textColor="@color/text_color_gray_dark"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/board_post_count"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/board_users_count"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/board_users_count"
+            android:background="@drawable/post_count_bg"
+            android:gravity="left"
+            android:textColor="@color/text_color_gray_dark"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

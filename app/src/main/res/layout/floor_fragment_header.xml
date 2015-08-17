@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/vertical_padding_tiny" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/vertical_padding_large"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/text_color_black"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/list_divider_holo_light" />
+
+        <LinearLayout
+            android:id="@+id/thread_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/vertical_padding_medium"
+            android:paddingTop="@dimen/vertical_padding_medium"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/viewcount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_view_count"
+                android:gravity="center"
+                android:textColor="@color/text_color_gray_deep"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/replycount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_comment_count"
+                android:gravity="center"
+                android:textColor="@color/text_color_gray_deep"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/createtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_time"
+                android:gravity="center"
+                android:textColor="@color/text_color_gray_deep"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/floor_more_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                  android:id="@+id/floor_more_all"
+                android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_white_gray"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_centerInParent="true"
+                    android:text="查看全部跟帖"
+                    android:textColor="@color/selectable_text_color_gray_dark"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="16dp"
+                android:background="@drawable/list_divider_holo_light"
+                 android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginBottom="@dimen/margin_large"
+                />
+
+            <RelativeLayout
+                 android:id="@+id/floor_more_pre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_white_gray"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="显示之前的跟帖"
+                    android:textColor="@color/selectable_text_color_gray_dark"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/floor_more_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/list_divider_holo_light" 
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cool_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/cool_tag"
+        android:visibility="gone" />
+
+</FrameLayout>

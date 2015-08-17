@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/vertical_padding_xlarge" >
+
+    <net.xici.newapp.support.widget.CircularImageView
+        android:id="@+id/avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/default_avatar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/avatar"
+        android:background="@drawable/appmail_list_item_outbox_bg"
+        android:gravity="left"
+        android:minHeight="50dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/vertical_padding_large"
+        android:paddingLeft="@dimen/horizontal_padding_xlarge"
+        android:paddingRight="@dimen/horizontal_padding_xlarge"
+        android:paddingTop="@dimen/vertical_padding_large" >
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web|email"
+            android:clickable="false"
+            android:focusable="false"
+            android:lineSpacingMultiplier="@dimen/config_line_spacing_multiplier"
+            android:textColor="@color/text_color_white"
+            android:textColorLink="@color/text_color_white"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+</RelativeLayout>

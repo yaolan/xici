@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="choose_photo_method">
+        <item>拍照</item>
+        <item>图库</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="floor_list_nav_type">
+        <item>全部</item>
+        <item>倒序查看</item>
+        <item>只看楼主</item>
+    </string-array>
+    <string-array name="guide_name">
+        <item>更新提醒</item>
+        <item>快捷发贴</item>
+        <item>置顶排序</item>
+        <item>便捷管版</item>
+        <item>订到桌面</item>
+        <item>手势返回</item>
+        <item>用户反馈</item>
+    </string-array>
+    <string-array name="guide_des">
+        <item>首页右侧圈圈中的数字即为该版更新提醒，记得下拉刷新哦。数字 = 24小时内该版更新的发帖+回帖数量。</item>
+        <item>你加入的讨论版一目了然，点击图示中图标即可一键在该版发帖。</item>
+        <item>在您收藏的版列表中，长按版名，操作右上角置顶，即可将自己喜欢的版排在最前面哦！</item>
+        <item>版主管理第一弹，长按版列表中想要删除的帖子，即可删除。</item>
+        <item>用户可以将自己喜欢的讨论版，定制到自己的手机主页，以后即可一键进入</item>
+        <item>从左侧边缘即可滑动返回上一页，操作就是这么潇洒。</item>
+        <item>有槽你就吐，产品经理哥哥陪你度过寂寞的人生。</item>
+    </string-array>
+    <string-array name="update_photo_quality_title">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="update_photo_quality_v">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="text_size_post_title">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="text_size_post_v">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="default_board_name">
+        <item>婚后空间</item>
+        <item>包藏货新</item>
+        <item>小猪慢慢长</item>
+        <item>江苏城市论坛</item>
+        <item>南京二手市场</item>
+        
+        <item>标点－韶韶－记者版</item>
+        <item>永远的大厂</item>
+        <item>六合人家</item>
+        <item>南京浦口论坛</item>
+        <item>南京二手摩托车交易市场</item>
+        
+        <item>败家MM集中营</item>
+        <item>南京零距离官方版</item>
+        <item>※结婚一族※</item>
+        <item>高淳老街杂坛</item>
+        <item>瑞华手机</item>
+        
+        <item>江苏中小学生家长网络大联盟</item>
+        <item>南京离婚者乐园</item>
+        <item>买车卖车二手车</item>
+        <item>南京公交</item>
+        <item>结伴户外行</item>
+        
+        <item>大肚皮乐园</item>
+        <item>南京征婚交友吧</item>
+        <item>扬州城市论坛</item>
+        <item>西祠手机第一版</item>
+        <item>天润城业主俱乐部</item>
+        
+        <item>南京二手手机市场一一淘诺手机</item>
+        <item>FFC福特福克斯俱乐部</item>
+        <item>八卦团</item>
+        <item>相伴走天涯</item>
+        <item>胖子厨房</item>
+    </string-array>
+    <string-array name="default_board_id">
+        <item>151693</item>
+        <item>138207</item>
+        <item>365913</item>
+        <item>16462</item>
+        <item>11396</item>
+        
+        <item>103826</item>
+        <item>128471</item>
+        <item>583561</item>
+        <item>638715</item>
+        <item>489554</item>
+        
+        <item>495265</item>
+        <item>1051692</item>
+        <item>860115</item>
+        <item>280603</item>
+        <item>1078134</item>
+        
+        <item>850459</item>
+        <item>577604</item>
+        <item>393076</item>
+        <item>125439</item>
+        <item>1300503</item>
+        
+        <item>687081</item>
+        <item>1087911</item>
+        <item>931615</item>
+        <item>603653</item>
+        <item>583430</item>
+        
+        <item>152883</item>
+        <item>1371616</item>
+        <item>1129809</item>
+        <item>1153636</item>
+        <item>795969</item>
+    </string-array>
+
+</resources>

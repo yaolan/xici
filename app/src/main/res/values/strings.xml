@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">西祠胡同</string>
+    <string name="app_summary">最大的网络社区之一</string>
+    <string name="xici">西祠</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nologin">未登录</string>
+    <string name="login">登录</string>
+    <string name="logout">注销</string>
+    <string name="doc_reply_author">回复楼主</string>
+    <string name="logout_msg">退出登录以后不能和小伙伴畅快的交流了，确定嘛,同志？</string>
+    <string name="hutongkou">胡同口</string>
+    <string name="category">分类</string>
+    <string name="about">关于</string>
+    <string name="everyone">大家</string>
+    <string name="hall">大厅</string>
+    <string name="more">加载更多精彩</string>
+    <string name="loading">载入中……</string>
+    <string name="choose_photo">选择图片</string>
+    <string name="click_to_load_older_message">网络有问题，点击重新载入</string>
+    <string name="sdcard_title">需要 SD 卡</string>
+    <string name="sdcard_message">上传媒体需要一张已挂载的 SD 卡。</string>
+    <string name="empty_fields">未找到内容</string>
+    <string name="title_post_required">请输入内容或插入图片。</string>
+    <string name="ok">确定</string>
+    <string name="cancel_edit_post">是否确定取消编辑？</string>
+    <string name="back">退出</string>
+    <string name="cancel">取消</string>
+    <string name="gallery_error">获取图片出错</string>
+    <string name="sd_card_unavaiable">SD卡不可用</string>
+    <string name="created_at_beautify_sec">秒</string>
+    <string name="created_at_beautify_min">分</string>
+    <string name="created_at_beautify_hour">小时</string>
+    <string name="created_at_beautify_day">天</string>
+    <string name="created_at_beautify_suffix">前</string>
+    <string name="return_top">回到顶部</string>
+    <string name="add">新建</string>
+    <string name="refresh">刷新</string>
+    <string name="share">分享</string>
+    <string name="share_board">分享本版</string>
+    <string name="share_thread">分享帖子</string>
+    <string name="shortcut_board">订到桌面</string>
+    <string name="board_info">版块详情</string>
+    <string name="unsubscribe_board">退出本版</string>
+    <string name="subscribe_board">加入</string>
+    <string name="reverse_view">倒序查看</string>
+    <string name="guide">新手指南</string>
+    <string name="xicistory">认识西祠</string>
+    <string name="xici_app_info">西祠客户端是首款西祠官方定制的APP，提供了浏览胡同口推荐新闻、讨论版预定及搜索、发帖及跟帖等内容。有了客户端，随时随地发图片看帖子。</string>
+    <string name="user_mails">飞语</string>
+    <string name="mine">我的</string>
+    <string name="minemail">飞语</string>
+    <string name="minefav">我的收藏</string>
+    <string name="minepublish">我的发布</string>
+    <string name="version">检查更新</string>
+    <string name="contentempty">内容不能为空。</string>
+    <string name="networkerror">网络错误</string>
+    <string name="drawer_login_by_qq_sort">QQ</string>
+    <string name="drawer_login_by_weixin_sort">微信</string>
+    <string name="drawer_login_by_sina_sort">微博</string>
+    <string name="changeavatar">修改头像</string>
+    <string name="set">设置</string>
+    <string name="fav">收藏</string>
+    <string name="cancelfav">取消收藏</string>
+    <string name="splash_user_name_0">美澍</string>
+    <string name="splash_user_name_1">舍俞</string>
+    <string name="splash_user_name_2">断魂剑魔</string>
+    <string name="splash_user_name_3">行者</string>
+    <string name="splash_user_des_0">旅游爱好者</string>
+    <string name="splash_user_des_1">南京吃货 版主</string>
+    <string name="splash_user_des_2">摄影爱好者</string>
+    <string name="splash_user_des_3">扎西德勒 版主</string>
+    <string name="splash_user_info_0">一次偶然，\n在西祠旅游频道看到斯里兰卡的分享帖，\n瞬间决定来一场说走就走的旅行，\n漂洋过海来看你！</string>
+    <string name="splash_user_info_1">我在西祠创建了南京吃货版，\n到哪的主题都是吃！\n希望更多的吃货加入我们！</string>
+    <string name="splash_user_info_2">姹紫嫣红，龙游梅，\n宛若游龙，真的游龙没见过，\n见了这株梅花，足矣！</string>
+    <string name="splash_user_info_3">西祠人的足迹遍布大江南北，\n在这里，我们邀请你一起前行！</string>
+    <string name="board_logo_url">http://xiciimgs.xici800.com/board_%d.jpg</string>
+    <string name="doc_reply_pre" formatted="false">回复 第%d楼 的 @%s ：\n</string>
+    <string name="get_vocde_delayed_format">等待(%s)秒</string>
+    <string name="bind_phone">绑定手机</string>
+    <string name="userid_label">西祠ID:%s</string>
+    <string name="update_photo_quality">上传图片质量</string>
+    <string name="register_psw_hint">请输入6-32位密码</string>
+    <string name="text_size_post">看帖文字大小</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="title_drawer_circle">圈子</string>
+    <string name="title_drawer_find">发现</string>
+    <string name="title_drawer_message">消息</string>
+    <string name="title_drawer_set">设置</string>
+
+    <string name="not_login">没有登录，还不能使用哦。</string>
+
+
+    <string name="feature_not_available">抱歉，该功能暂不可用！</string>
+
+    <string name="mail_delete">是否删除和该用户的所有飞语？</string>
+
+    <string name="unbind">此QQ/微博未绑定西祠帐号，请选择以下方式绑定。绑定成功后，即可快速登录西祠胡同社区？</string>
+
+
+    <string name="qq_userinfo_error">获取QQ用户信息失败</string>
+
+    <string name="weibo_userinfo_error">获取微博用户信息失败</string>
+    <string name="hit_again_to_exit">点击两次退出</string>
+
+
+    <string name="loadingfooter_error">网络错误，点击重新加载</string>
+    <string name="loadingfooter_loading">正在加载更多……</string>
+    <string name="loadingfooter_end">已经没有更多了</string>
+    <string name="login_wait">正在登录……</string>
+
+
+    <!-- <string name="pan_img_url"  formatted="false">\n \<img src="http://pan.xici.com/%s/800 " /\>\n</string> -->
+
+</resources>

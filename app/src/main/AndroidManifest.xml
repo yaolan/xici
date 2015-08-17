@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.xici.newapp" >
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <application
+        android:name="net.xici.newapp.app.XiciApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="net.xici.newapp.ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard" />
+
+        <activity
+            android:name="net.xici.newapp.ui.thread.FloorListActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="net.xici.newapp.thread.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="net.xici.newapp.ui.mine.AppMailItemActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name="net.xici.newapp.ui.thread.ThreadListActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+
+
+        <!-- 友盟 -->
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52e4742156240b90380e1305" />
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="8c50abfb93a4e987168b320c203dc18e" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="xici" />
+
+
+
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.AccountContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.accountcontentprovider" />
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.BoardContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.boardcontentprovider" />
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.ThreadContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.threadcontentprovider" />
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.FloorContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.floorcontentprovider" />
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.MailContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.mailcontentprovider" />
+        <provider
+            android:name="net.xici.newapp.data.contentprovider.UnreadContentProvider"
+            android:authorities="net.xici.newapp.data.contentprovider.unreadcontentprovider" />
+
+
+    </application>
+
+</manifest>
